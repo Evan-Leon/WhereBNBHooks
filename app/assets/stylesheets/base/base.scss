@@ -1,0 +1,11 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+body {
+    font-family: $font;
+}
+
+#map-container {
+    width: 500px;
+    height: 500px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WhereBNB</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <meta property="og:title" content="WhereBNB" />
+     <meta name="image" property='og:image' content="<%= image_url('where_linked.gif') %>"/>
+     <meta property="og:description"
+       content="An AirBNB clone with a Ruby on Rails back-end and a React/Redux front-end."
+     />
+     <meta property="og:url"
+       content="http://wherebnb-app.herokuapp.com/"
+     />
+    <%= favicon_link_tag asset_path('favicon.png'), :rel => 'icon', :type =>  'image/png' %>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6J50LX4EY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-N6J50LX4EY');
+    </script>
+    <%= stylesheet_link_tag 'application', media: 'all'%>
+    <%= javascript_include_tag 'application' %>
+     <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=#{Rails.application.credentials.google[:api_key]}" %>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+    
+     <script>
+      window.logoUrl = '<%= image_url('logo.png') %>'
+      window.cartoonLakeUrl = '<%= image_url('cartoon_lake.jpg') %>'
+      window.springsUrl = '<%= image_url('springs.jpg') %>'
+      window.soundsUrl = '<%= image_url('sounds.jpg') %>'
+      window.riverUrl = '<%= image_url('river.jpg') %>'
+      window.forestRiverUrl = '<%= image_url('forest_river.jpg') %>'
+      window.watersideUrl = '<%= image_url('waterside.jpg') %>'
+      window.barnUrl = '<%= image_url('barn.jpg') %>'
+      window.waterHouseUrl = '<%= image_url('water_house.jpg') %>'
+      window.triangleHouseUrl = '<%= image_url('triangle_house.jpg') %>'
+      window.pugUrl = '<%= image_url('pug.jpg') %>'
+      window.lakeUrl = '<%= image_url('luca-bravo-lake.jpg') %>'
+      window.hutsUrl = '<%= image_url('jon-flobrant-sheds.jpg') %>'
+      window.interior1 = '<%= image_url('andrea-davis.jpg') %>'
+      window.interior2 = '<%= image_url('justin-schuler.jpg') %>'
+      window.interior3 = '<%= image_url('kyoshi-reyes.jpg') %>'
+      window.interior4 = '<%= image_url('neonbrand.jpg') %>'
+     </script>
+     
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

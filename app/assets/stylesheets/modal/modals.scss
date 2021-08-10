@@ -1,0 +1,194 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 5;
+  }
+  
+  .modal-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .close-x {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    cursor: pointer;
+    
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    align-self: center;
+    padding:2px;
+    padding-left: 5px;
+    padding-top: 5px;
+
+    :hover{
+      background-color: darkgray;
+      border-radius: 50px;
+    }
+    
+  }
+
+  .login-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .signup-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+ 
+  .login-input {
+    margin-left: 14px;
+   
+   
+  }
+ 
+  .login-form-box {
+    // outline: 1px solid black;
+    padding: 20px;
+    background: white;
+    position: relative;
+    border-radius: 25px;
+    
+  }
+
+  .signup-form {
+    outline: 1px solid black;
+    padding: 20px;
+    background: white;
+    position: relative;
+  }
+  
+header {
+  margin-left: 5%;
+}
+
+h1, h5 {
+  margin-bottom: 0px;
+}
+
+.login-form-container .signup-form {
+  display: flex;
+  justify-content: center;
+}
+
+.login-top {
+  display:flex;
+  // border-bottom: 1px solid lightgray;
+  margin-left: 10px;
+}
+
+.login-submit {
+  background-color: rgb(226, 17, 86);
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding:5px;
+  font-weight: 500;
+  height: 50px;
+  width:400px;
+  padding-left: 1px;
+}
+
+.demo-user-button {
+  background-color: rgb(226, 17, 86);
+  color: white;
+  border-radius: 10px;
+  
+  padding:5px;
+  height: 50px;
+  width: 401px;
+  font-weight: 500;
+  margin-left: 7px;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 10px;
+  
+  
+}
+
+.login-form > input {
+  height: 50px;
+  width:378px;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding-left: 15px;
+  margin: 5px 0 5px 10px;
+}
+
+.signup-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.signup-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-submit {
+  background-color: rgb(226, 17, 86);
+  color: white;
+  border-radius: 10px;
+  margin-top:10px;
+  padding:5px;
+  font-weight: 700;
+  height: 50px;
+  width:400px;
+  padding-left: 1px;
+  font-size: 18px;
+}
+
+.signup-inputs > input {
+  height: 50px;
+  width:378px;
+  border-radius: 5px;
+  margin: 5px 0 5px 0;
+  padding-left: 15px;
+}
+
+.birthdate {
+  height: 50px;
+  width:378px;
+  border-radius: 5px;
+ 
+  padding-left: 15px;
+}
+
+.signup-inputs > label {
+  margin-left: 10px;
+}
+
+.errors {
+  color: rgb(165, 43, 43);
+  margin-left: 12px;
+  padding-top: 5px;
+}
+
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+  content: "";
+}
+
+

@@ -1,0 +1,102 @@
+
+.users-dropdown-btn {
+    position: relative;
+    padding: 5px;
+    border: 1px solid rgb(204, 202, 202);
+    align-self: center;
+    border-radius: 30px;
+    margin-right: 100px;
+    
+}
+
+.users-dropdown-btn:hover .login-buttons {
+    display: block;
+    box-shadow: -1px 4px 6px 1px rgb(92, 90, 90);
+    border-radius: 5px;
+    height: 125px;
+    cursor: pointer ;
+    font-weight: 500;
+}
+
+.users-dropdown-btn:hover .logout-buttons {
+    display: block;
+    box-shadow: -1px 4px 6px 1px rgb(92, 90, 90);
+    border-radius: 5px;
+    height: 125px;
+    cursor: pointer ;
+    font-weight: 500;
+}
+
+.login-buttons {
+    position: absolute;
+    display: none;
+    top: 38px;
+    right: 0;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    width: 200px;
+    z-index: 1;
+    font-family: $font;
+    text-align:start;
+    box-shadow: -1px 4px 6px 1px black;
+
+    li {
+        padding: 10px 0 10px 10px;
+    }
+
+    li:hover {
+        background-color: lightgray;
+    }
+}
+
+.logout-buttons {
+    position: absolute;
+    display: none;
+    top: 38px;
+    right: 0;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    width: 200px;
+    
+    z-index: 1;
+    font-family: $font;
+    text-align:start;
+    box-shadow: -1px 4px 6px 1px black;
+   
+    li {
+        padding: 10px 0 10px 10px;        
+    }
+
+    li:hover {
+         background-color: lightgray;
+    }
+}
+
+// .logout-buttons:hover {
+//     background-color: rgb(245, 245, 245);
+// }
+
+.bars {
+    padding: 5px 5px 5px 5px;
+}
+
+.greetings-title {
+    padding-left: 9px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.user-icon{
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+.listings-index-box {
+    width: 100vw;
+    height: 100h;
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    grid-template-areas:
+        "header header" 
+        "index map";
+    
+}
+
+// .index-title {
+//     // margin-top: 100px;
+// }
+// .listings-index-top {
+//     margin-top: 100px;
+// }
+.index-item-box {
+    // padding-top: 100px;
+    // margin-top: 100px;
+    // background-color: green;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    grid-area: "index";
+    color: black;
+    overflow-y: scroll;
+    
+    
+    
+}
+
+// .index-item-box:first-child {
+//     margin-top: 100px;
+//     padding-top: 10px;
+// }
+
+.map-index-box{
+    // background-color: indianred;
+    // height: 100vh;
+    // width: 50vw;
+    margin-top: 85px;
+    position: fixed;
+    grid-area: "map";
+    right: 0px;
+}
+
+#index-map-container {
+    height: 90vh;
+    width: 50vw;
+    // position: sticky;
+}
+
+.listing-inner {
+    margin-top: 200px;
+    // background-color: indigo;
+    // padding-top: 100px;
+}
+
+// .listing-inner:first-child {
+    
+// }
+
+.list-indexes:first-child {
+    margin-top: 69px;
+    padding-top: 10px;
+}
+
+.index-title{
+    padding: 10px 10px 10px 10px;
+    font-size: 24px;
+    margin-top: 30px;
+    width: 26vw;
+    font-weight: 300;
+
+}
+
+.main-index-title {
+    font-size: 28px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.review-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.listing-picture {
+    width: 300px ;
+    height: 200px ;
+    // background-color: lightblue;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.index-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    // padding-left: 5px;
+
+    p {
+        color: rgb(145, 141, 141);
+        font-weight: 300;
+    }
+    
+}
+
+.index-img {
+    width: 20vw;
+    height: inherit;
+    border-radius: 25px;
+}
+
+
+

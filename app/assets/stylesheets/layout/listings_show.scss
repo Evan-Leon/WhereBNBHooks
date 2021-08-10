@@ -1,0 +1,423 @@
+
+.listing-show-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px 0 100px;
+    padding: 0 100px 0 100px;
+
+}
+
+.listing-title {
+    font-size: 45px;
+}
+
+.top-show {
+    padding-top: 100px;
+}
+
+.photo-box{
+    
+    // background-color: lightcoral;
+    display: grid;
+    width: 1010px;
+    height: 460px;
+    // align-items: center;
+    border-radius: 25px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "big grid"
+    "big grid";
+    
+}
+
+.host-title {
+    font-size: 25px;
+    // border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.border-line {
+    width: 50vw;
+    border-bottom: 1px solid lightgray;
+}
+
+.reviews {
+    margin-top: 10px;
+}
+
+.description-box-show {
+    width: 50vw;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 0 20px 0;
+    margin-bottom: 15px;
+}
+
+.calendar-box {
+    height: 400px;
+    width: 100vw;
+    margin-bottom: 50px;
+    // border-bottom: 1px solid lightgray ;
+}
+
+.show-map {
+    height: 480px;
+    width: 50vw;
+    background-color: lightgreen;
+    margin-bottom: 40px;
+}
+
+.cover-photo-show {
+    width: 500px;
+    height: 460px;
+    margin-right: 8px;
+    border-radius: 20px 0 0 20px;
+    
+}
+
+
+
+.interior-images {
+    display: grid;
+    width: 500px;
+    height: 465px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "img img"
+    "img img";
+    
+    .int1{
+        width: 245px;
+        height: 225px;
+    }
+    .int2{
+        width: 245px;
+        height: 225px;
+        border-radius: 0 20px 0 0;
+    }
+    .int3{
+        width: 245px;
+        height: 225px;
+    }
+    .int4{
+        width: 245px;
+        height: 225px;
+        border-radius: 0 0 20px 0;
+    }
+}
+
+.star {
+    color: red;
+}
+
+.review-city {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.city {
+    margin-left: 15px;
+    margin-top: 12px;
+    color:rgb(134, 133, 133);
+    
+
+}
+
+.icon-list {
+
+    li{
+        margin: 0 0 15px 0;
+        font-size: 24px;
+        font-weight: 300;
+    }
+}
+
+.att-icons {
+    padding-right: 5px;
+}
+
+.desc-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.show-description {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.review-title {
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.review-box {
+    display: grid;
+    width: 50vw;
+    height: 450px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "rev rev"
+    "rev rev"
+    "rev rev";
+}
+
+.title-review {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.review-body {
+    font-weight: 300;
+    margin-right:5px;
+}
+
+.booking-box {
+    background-color: white;
+    height: 440px;
+    width: 350px;
+    margin-left: 240px;
+    margin-top: 100px;
+    padding: 10px;
+    border: 1px solid darkgray;
+    right: 3%;
+    margin-bottom: 30px;
+    position: sticky;
+    bottom: -200%;
+    left: 150%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+
+}
+
+.res-form{
+    display: flex;
+    height:600px;
+    width: 80vw;
+}
+
+.booking-box-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.check-in-out {
+    display: flex;
+    justify-content: center;
+    // padding-bottom: 20px;
+}
+
+.price-container{
+    display: flex;
+}
+
+.box-price {
+    font-weight: 600;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.night {
+    justify-self:flex-start;
+}
+
+.check-in-container {
+    border: 1px solid darkgray;
+    padding: 20px 30px 15px 30px ;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.check-out-container {
+    border: 1px solid darkgray;
+    padding: 20px 30px 15px 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+}
+
+.night-cost {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 10px 10px;
+    
+}
+
+.taxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkgray;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.guests-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgray;
+    padding: 10px 1px 5px 20px;
+    width: 280px;
+    margin-left: 23px;
+}
+
+.calendar-title {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.cal-desc {
+    font-weight: 300;
+    margin-top: 12px;
+    color:rgb(134, 133, 133);
+}
+
+.num-guests {
+    border: hidden;
+}
+
+.check-label {
+    
+    color:rgb(134, 133, 133);
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    
+    
+}
+
+.booking-form-container {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+
+.booking-sub {
+  background-color: rgb(226, 17, 86);
+  color: white;
+  border-radius: 10px;
+  margin-top:10px;
+  margin-left: 10px;
+  padding:5px;
+  font-weight: 700;
+  height: 50px;
+  width:300px;
+  padding-left: 1px;
+  font-size: 18px;
+}
+
+.guest-label {
+    color:rgb(134, 133, 133);
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.map-title {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    margin-top: 50px;
+    width:50vw;
+    border-top: 1px solid lightgray;
+    padding: 30px 0 30px 0;
+    
+}
+
+.map-city {
+    font-weight: 400;
+    margin-top: 12px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    width: 50vw;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+#map-container {
+    height: 60vh;
+    width: 77vw;
+}
+
+.things-title {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.things-to-know{
+    display: flex;
+}
+
+.rules-title {
+    font-size: 18px;
+    
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+}
+
+.rules-item {
+    padding: 5px 5px 5px 0;
+    font-weight: 300;
+}
+
+.rules-icons{
+    padding-right: 5px;
+}
+.house-rules-container{
+    width: 20vw;
+}
+
+.health-container {
+    width:25vw;
+    margin-bottom: 50px;
+    padding-left: 5px;
+}
+
+.rule-cont{
+    display: flex;
+    align-items: center;
+}
+
+.cancel-day  {
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.cancel-night {
+    font-weight: 300;
+}
+
+.cancellation-con {
+    padding-left: 15px;
+    width:25vw;
+}
+
+.rule-icon{
+    padding-right: 10px;
+}
+

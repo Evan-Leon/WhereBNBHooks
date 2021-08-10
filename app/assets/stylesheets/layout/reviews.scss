@@ -1,0 +1,283 @@
+.review-container {
+    // display: flex;
+    height: 40vh;
+    width: 50vw;
+    
+}
+
+.review-container-show {
+    display: flex;
+    height: 50vh;
+    width: 90vw;
+    overflow-y:auto;
+    
+}
+
+.review-title {
+    border-top: 1px solid lightgray;
+    
+    padding-top: 30px;
+}
+
+.actual-reviews {
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: space-between;
+   
+    
+    display: grid;
+    width: 50vw;
+    height: 450px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    grid-template-areas:
+    "rev rev"
+    "rev rev";
+    
+    
+}
+
+
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.review-form-container {
+    border: 1px solid darkgray;
+    border-radius: 25px;
+    width: 350px;
+    margin-left: 10px;
+    height: 350px;
+    
+    
+}
+
+.review-sub {
+    background-color: rgb(226, 17, 86);
+    color: white;
+    border-radius: 10px;
+    margin-top:10px;
+    
+    padding:5px;
+    font-weight: 700;
+    height: 50px;
+   
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.rating-container {
+    display:flex;
+    border:1px solid darkgrey;
+    width:150px;
+    height: 50px;
+    
+    margin-bottom: 10px;
+    
+}
+
+.review-text-container {
+    display: flex;
+    flex-direction: column;
+    border:1px solid darkgrey;
+    padding:10px
+}
+
+.rating-title {
+    color:rgb(134, 133, 133);
+    padding:10px;
+}
+
+.rating {
+    border:hidden;
+    padding:10px;
+    font-size: 20px;
+    margin-left: 25px;
+    outline: none;
+
+}
+
+.review-text-area {
+    border:hidden;
+    outline: none;
+}
+
+.review-title-box{
+    color:rgb(134, 133, 133);
+    padding-bottom: 10px;
+}
+
+.review-form-box-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding: 20px 0 0 0 ;
+}
+
+.review-display-container {
+    
+    padding:10px;
+    width: 18vw;
+    height: 25vh;
+}
+
+.user-rev {
+    padding: 3px 0 0 0;
+    font-weight: 500;
+}
+
+.rev-date{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 3px;
+    color:rgb(134, 133, 133);
+}
+
+.user-title-container {
+    
+    padding:20px;
+}
+
+.rev-user-icon{
+    padding:0 5px 0 5px;
+}
+
+.review-show-container {
+    padding-top: 10px;
+    display: grid;
+    width: 100vw;
+    height: 200vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
+    grid-template-areas:
+    "title title title"
+    "rev rev rev"
+    "rev rev rev";
+    
+    overflow: auto;
+}
+
+.review-show-box {
+    border: 1px solid darkgray;
+    height: 50vh;
+    width: 30vw;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.edit-delete-btns {
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+     background-color: rgb(226, 17, 86);
+    color: white;
+    border-radius: 10px;
+    margin-top:10px;
+    
+    
+    font-weight: 700;
+    height: 50px;
+   
+    font-size: 18px;
+}
+
+.edit-review-form-container {
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 350px;
+    margin-left: 10px;
+    background-color: white;
+    
+    
+    
+}
+
+.edit-review-form-box-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding: 20px 0 0 0 ;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.edit-review-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.review-show-out-container{
+    padding-top: 90px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.review-show-title{
+    font-size: 32px;
+    font-weight: 400;
+    padding:10px;
+    margin-left:95px;
+}
+
+.listing-title-rev{
+    font-size: 20px;
+    padding:10px;
+}
+
+.rev-title-show{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.rev-date-show-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.rev-body-show-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.edit-delete-btns-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.rev-body-show{
+    font-size: 20px;
+    padding: 10px 5px 10px 20px;
+    border:1px solid lightgray;
+    border-radius: 25px;
+    font-weight: 300;
+    margin: 20px 0 10px 0;
+    
+}
+
+.edit-delete-review-btns {
+    height: 30px;
+    width: 60px;
+    padding: 5px;
+     background-color: rgb(226, 17, 86);
+    color: white;
+    border-radius: 10px;
+    margin-top:10px;
+    
+    
+    font-weight: 700;
+    
+   
+    font-size: 10px;
+}
+

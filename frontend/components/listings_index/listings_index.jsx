@@ -4,10 +4,8 @@ import ListingMap from '../listings_map/listing_map';
 import {Link} from 'react-router-dom'
 import { fetchListing } from '../../actions/listing_actions';
 
-class ListingsIndex extends React.Component {
-    constructor(props){
-        super(props);
-    }
+function ListingsIndex(){
+   
 
     componentDidMount() {
         
@@ -15,7 +13,7 @@ class ListingsIndex extends React.Component {
     }
 
 
-    render(){
+    return(
         const {listings} = this.props;
         
         if (!listings) return null;
@@ -48,7 +46,7 @@ class ListingsIndex extends React.Component {
                 </div>
             </div>
         )
-    }
+    )
 
 
 }

@@ -7,17 +7,17 @@ import { fetchListing } from '../../actions/listing_actions';
 function ListingsIndex(){
    
 
-    componentDidMount() {
+    // componentDidMount() {
         
-        this.props.fetchListings();
-    }
+    //     this.props.fetchListings();
+    // }
 
 
     return(
-        const {listings} = this.props;
+        //  const {listings} = this.props;
         
-        if (!listings) return null;
-        return(
+        // if (!listings) return null;
+        // return(
             
             <div className="listings-index-box">
                 <div className="listings-inner">
@@ -46,7 +46,7 @@ function ListingsIndex(){
                 </div>
             </div>
         )
-    )
+    // )
 
 
 }
